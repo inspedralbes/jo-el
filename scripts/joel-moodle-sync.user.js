@@ -156,11 +156,21 @@
     // 🚦 EXECUCIÓ SEGONS PÀGINA
     // =========================
 
-    if (location.hostname === "jo-el.es") {
+    function isJoelStatsPage() {
+    return location.hostname === "jo-el.es" &&
+        location.pathname.includes("/stats");
+    }
+    function isMoodleGradingPage() {
+    return location.hostname.includes("campus.institutpedralbes.cat") &&
+        location.pathname.includes("/mod/assign/view.php") &&
+        location.search.includes("action=grading");
+    }
+
+    if (isJoelStatsPage()) {
         crearBoto("📤 Exportar JO-EL", "10px", "#2196F3", calcularNotes);
     }
 
-    if (location.hostname.includes("campus")) {
+    if (isMoodleGradingPage()) {
         crearBoto("📥 Importar JO-EL", "10px", "#4CAF50", aplicarNotesMoodle);
     }
 
