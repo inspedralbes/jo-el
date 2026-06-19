@@ -9,8 +9,8 @@
 // @grant        GM_setValue
 // @grant        GM_getValue
 //
-// @downloadURL  https://github.com/inspedralbes/jo-el/scripts/joel-moodle-sync.user.js
-// @updateURL    https://github.com/inspedralbes/jo-el/scripts/joel-moodle-sync.user.js
+// @downloadURL  https://raw.githubusercontent.com/inspedralbes/jo-el/main/scripts/joel-moodle-sync.user.js
+// @updateURL    https://raw.githubusercontent.com/inspedralbes/jo-el/main/scripts/joel-moodle-sync.user.js
 // ==/UserScript==
 
 (function () {
