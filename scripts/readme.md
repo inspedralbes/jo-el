@@ -27,7 +27,7 @@ Tampermonkey:
 
 ### Instal·lació directa
 
-👉 **[Instal·lar l'script](https://github.com/inspedralbes/jo-el/scripts/joel-moodle-sync.user.js)**
+👉 **[Instal·lar l'script](https://raw.githubusercontent.com/inspedralbes/jo-el/main/scripts/joel-moodle-sync.user.js)**
 
 Si Tampermonkey està instal·lat, s'obrirà automàticament la pantalla d'instal·lació.
 
